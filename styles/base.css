@@ -1,16 +1,70 @@
-#headBar{
-  background-color:#A81c07;
-
+body {
+  margin: 0px;
 }
-#headBar .headBarTitle{
+
+h1, h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .2em;
-  color:#fff;
-      font-size: 20pt;
-      padding:10px;
+  color: #fff;
+  font-size: 20pt;
+  width: 100%;
+  margin: 0px;
 }
-#logo img{
-  margin:10px;
+
+h2 {
+  text-rendering: optimizelegibility;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: rgb(29, 29, 29);
+  margin-top: 0px;
+  white-space: pre-wrap;
+  hyphens: manual !important;
+  font-size: medium;
+}
+
+h3 {
+  text-rendering: optimizelegibility;
+  letter-spacing: 0.03em;
+  line-height: 1.2em;
+  color: rgb(29, 29, 29);
+  margin-top: 15px;
+  white-space: pre-wrap;
+  hyphens: manual !important;
+  font-size: medium;
+}
+
+#headBar {
+  background-color: #A81c07;
+  padding: 10px;
+}
+
+#intro{
+  margin:35px;
+}
+
+#linebreak{
+    border-width: 2px 0 0 0;
+    border-color: #dadada;
+    border-style: solid;
+    margin: 50px 0px;
+}
+
+#logo img {
+  margin: 10px;
+}
+
+p {
+  overflow-wrap: break-word;
+  color: rgba(29, 29, 29, 0.7);
+  letter-spacing: 0.8px;
+  white-space: pre-wrap;
+  hyphens: manual !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
