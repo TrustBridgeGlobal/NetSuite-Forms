@@ -1,0 +1,9 @@
+:root {
+  --logo-url-med: url('https://5432341.app.netsuite.com/c.5432341/Online%20Forms%20Resources/media/IGF%20Logo%20Inline.png');
+  --logo-url-med-expl: url('../../Online%20Forms%20Resources/media/IGF_Logo_Inline.png');
+  --main-color-dark: #0E50A0;
+  --main-color-light: #7BB0D3;
+  --main-color-dark2: #002070;
+  --secondary-color-light:#FFC910;
+  --secondary-color-dark:;
+}
