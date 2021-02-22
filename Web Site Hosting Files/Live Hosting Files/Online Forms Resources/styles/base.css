@@ -87,13 +87,12 @@ p {
   letter-spacing: 0.8px;
   white-space: pre-wrap;
   hyphens: manual !important;
-  font-weight:normal;
+  font-weight: normal;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-textarea{
-  min-height:150px !important;
+textarea {
+  min-height: 150px !important;
 }
 
 #bodyWrapper {}
@@ -131,11 +130,12 @@ textarea{
   background-color: #A81c07;
   background-color: var(--main-color-dark);
 }
-#logo{
+
+#logo {
   content: url("https://5432341.app.netsuite.com/c.5432341/Online%20Forms%20Resources/media/media986f.jpg");
   content: var(--logo-url-med);
   content: var(--logo-url-med-expl);
-  max-height:80px;
+  max-height: 80px;
 }
 
 #intro {
