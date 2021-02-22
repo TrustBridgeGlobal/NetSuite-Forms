@@ -45,7 +45,7 @@ h4 {
   letter-spacing: .06em;
   color: rgba(29, 29, 29, .7);
   font-family: Open Sans, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
@@ -62,11 +62,14 @@ input[type="button"], input[type="submit"] {
 
 input[type="Submit"] {
   background-color: #A81C07;
+  background-color: var(--main-color-dark);
   color: #fff;
+  margin: 25px 0px;
 }
 
 input[type="Submit"]:active, input[type="Submit"]:hover {
   background-color: #4c0b0d;
+  background-color: var(--main-color-dark2);
 }
 
 input[type="button"] {
@@ -84,15 +87,16 @@ p {
   letter-spacing: 0.8px;
   white-space: pre-wrap;
   hyphens: manual !important;
+  font-weight:normal;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#bodyWrapper {}
 
-#headBar {
-  background-color: #A81c07;
-  padding: 10px;
+textarea{
+  min-height:150px !important;
 }
+
+#bodyWrapper {}
 
 #formBlock {
   margin: 20px;
@@ -108,7 +112,7 @@ p {
   font-family: Open Sans, Helvetica, sans-serif;
   background-color: #fff;
   border-color: #ddd;
-  border-style:solid;
+  border-style: solid;
   border-width: 1px;
 }
 
@@ -117,6 +121,21 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+#headBar {
+  padding: 10px;
+}
+
+#headBar {
+  background-color: #A81c07;
+  background-color: var(--main-color-dark);
+}
+#logo{
+  content: url("https://5432341.app.netsuite.com/c.5432341/Online%20Forms%20Resources/media/media986f.jpg");
+  content: var(--logo-url-med);
+  content: var(--logo-url-med-expl);
+  max-height:80px;
 }
 
 #intro {
@@ -130,10 +149,11 @@ p {
   margin: 50px 0px;
 }
 
-#logo img {
+#logo {
   margin: 10px;
 }
 
 .requiredIco {
   color: #A81c07;
+  color: var(--main-color-dark);
 }
