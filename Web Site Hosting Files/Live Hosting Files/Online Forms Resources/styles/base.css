@@ -64,6 +64,7 @@ input[type="Submit"] {
   background-color: #A81C07;
   background-color: var(--main-color-dark);
   color: #fff;
+  margin: 25px 0px;
 }
 
 input[type="Submit"]:active, input[type="Submit"]:hover {
@@ -88,6 +89,10 @@ p {
   hyphens: manual !important;
   font-weight:normal;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+textarea{
+  min-height:150px;
 }
 
 #bodyWrapper {}
