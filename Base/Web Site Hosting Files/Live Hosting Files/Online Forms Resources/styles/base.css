@@ -40,13 +40,13 @@ h3 {
   font-size: medium;
 }
 
-h4 {
+#formBlock h4 {
   font-size: 15px;
   letter-spacing: .06em;
   color: rgba(29, 29, 29, .7);
   font-family: Open Sans, Helvetica, sans-serif;
   font-weight: 300;
-  margin-bottom: 5px;
+  margin: 20px 0 5px 0;
 }
 
 input[type="button"], input[type="submit"] {
@@ -108,17 +108,29 @@ textarea {
 #formBlock input[type="text"], #formBlock select, #formBlock textarea {
   min-width: 373px;
   min-height: 35px;
-  font-family: Open Sans, Helvetica, sans-serif;
   background-color: #fff;
   border-color: #ddd;
   border-style: solid;
   border-width: 1px;
 }
 
+#formBlock input[type="text"], #formBlock select, #formBlock textarea, .inputreadonly {
+  font-family: Open Sans, Helvetica, sans-serif !important;
+  font-size: 12pt !important;
+  color: #000;
+}
+
 #formWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+#formWrapper .survey {
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -136,6 +148,7 @@ textarea {
   content: var(--logo-url-med);
   content: var(--logo-url-med-expl);
   max-height: 80px;
+  margin: 10px;
 }
 
 #intro {
@@ -147,10 +160,6 @@ textarea {
   border-color: #dadada;
   border-style: solid;
   margin: 50px 0px;
-}
-
-#logo {
-  margin: 10px;
 }
 
 .requiredIco {
